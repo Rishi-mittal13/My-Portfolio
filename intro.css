@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@300&family=Raleway:wght@200&display=swap');
+
+
+.infoContainer {
+    font-family: 'Hind Siliguri', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    margin-left: 230px;
+}
+
+.infoContainer p {
+    margin-right: 100px;
+}
+
+.ih11 {
+    margin-top: 5px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.ih12 {
+    margin-top: 20px;
+}
+
+/* --------------------------------------Skills----------------------------------------------- */
+
+.skill {
+    margin-bottom: 3px;
+}
+
+.skill .item {
+    margin-top: 5px;
+}
+
+.skill .row {
+    margin: 1rem 0;
+}
+
+.skill .item-text {
+    display: flex;
+    justify-content: flex-start;
+    font-weight: 600;
+    font-size: 14px;
+    position: relative;
+}
+
+.skill .item-text span:last-child {
+    position: absolute;
+}
+
+.skill .item-text .w-80 {
+    margin-left: 38%;
+}
+
+.skill .item-text .w-60 {
+    margin-left: 28%;
+}
+
+.skill .item-text .w-85 {
+    margin-left: 40%;
+}
+
+.skill .item-text .w-50 {
+    margin-left: 23%;
+}
+
+.skill .item-text .w-60 {
+    margin-left: 28%;
+}
+
+.skill .item-text .w-62 {
+    margin-left: 29%;
+}
+
+.progress {
+    margin: 3px;
+    border-radius: 2.5px;
+    height: 4.5px;
+    width: 50%;
+    background-color: rgb(202, 175, 175);
+    overflow: hidden;
+}
+
+.progress-bar {
+    background: green;
+    height: 100%;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+
+.progress-bar.w-80 {
+    width: 80%;
+}
+
+.progress-bar.w-60 {
+    width: 60%;
+}
+
+.progress-bar.w-85 {
+    width: 85%;
+}
+
+.progress-bar.w-50 {
+    width: 50%;
+}
+
+.progress-bar.w-60 {
+    width: 60%;
+}
+
+.progress-bar.w-62 {
+    width: 62%;
+}

@@ -1,0 +1,56 @@
+#p11 {
+    margin-left: 250px;
+    margin-top: 200px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 1500;
+    font-size: 40px;
+
+}
+
+.connectWithMe .para1 {
+    margin-top: 40px;
+    display: flex;
+    margin-left: 100px;
+}
+
+.connectWithMe .para2 {
+    margin-top: 20px;
+    display: flex;
+    margin-left: 100px;
+}
+
+.connectWithMe .link1 img {
+    margin: 8px 10px 10px 150px;
+    width: 40px;
+    height: 40px;
+}
+
+.connectWithMe .link2 img {
+    margin: 5px 10px 10px 25px;
+    width: 40px;
+    height: 40px;
+}
+
+.connectWithMe .link3 img {
+    margin: 5px 10px 10px 25px;
+    width: 40px;
+    height: 40px;
+}
+
+.connectWithMe .link4 img {
+    margin: 5px 10px 10px 150px;
+    width: 40px;
+    height: 40px;
+}
+
+.connectWithMe .link5 img {
+    margin: 5px 10px 10px 25px;
+    width: 40px;
+    height: 40px;
+}
+
+.connectWithMe .link6 img {
+    margin: 5px 10px 10px 25px;
+    width: 280px;
+    height: 40px;
+}
