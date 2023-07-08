@@ -17,7 +17,8 @@
 .sidebar {
     position: absolute;
     background-color: rgb(124, 164, 164);
-    width: 15vw;
+    max-width: 200px;
+    min-width: 100px;
     font-family: 'Raleway', sans-serif;
     height: 100vh;
     transition: transform 0.3s ease-in-out;
