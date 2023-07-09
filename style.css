@@ -72,7 +72,7 @@
     margin: 140px;
     margin-left: 230px;
     display: flex;
-    justify-content: space-around;
+    /* justify-content: space-around; */
 }
 
 .devInfo {
@@ -130,8 +130,9 @@
 }
 
 .devPic img {
+    display: flex;
     height: 60vh;
-    margin: 0 100px 40px 0 ;
+    margin: 0 100px 40px 0 ; 
 }
 
 /* @media (max-width: 1000px) {
@@ -140,3 +141,21 @@
         position: absolute;
     }
 } */
+@media screen and (max-width: 1000px) {
+    .infoContainer {
+        /* background-color: red; */
+        height: 60vh;
+        max-width: 60vw;
+        margin: 100px;
+        margin-left:20vw;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: space-around; */
+    }
+    .devPic img{
+        height: 350px;
+        width: 300px
+
+        
+    }
+}
