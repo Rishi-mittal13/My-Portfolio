@@ -1,5 +1,5 @@
 #p11 {
-    margin-left: 250px;
+    margin-left: 150px;
     margin-top: 200px;
     font-family: 'Raleway', sans-serif;
     font-weight: 1500;
@@ -10,17 +10,17 @@
 .connectWithMe .para1 {
     margin-top: 40px;
     display: flex;
-    margin-left: 100px;
+    margin-left: 50px;
 }
 
 .connectWithMe .para2 {
     margin-top: 20px;
     display: flex;
-    margin-left: 100px;
+    margin-left: 50px;
 }
 
 .connectWithMe .link1 img {
-    margin: 8px 10px 10px 150px;
+    margin: 8px 10px 10px 110px;
     width: 40px;
     height: 40px;
 }
@@ -38,7 +38,7 @@
 }
 
 .connectWithMe .link4 img {
-    margin: 5px 10px 10px 150px;
+    margin: 5px 10px 10px 110px;
     width: 40px;
     height: 40px;
 }
@@ -53,4 +53,36 @@
     margin: 5px 10px 10px 25px;
     width: 280px;
     height: 40px;
+}
+
+@media screen and (max-width:600px){
+    #p11 {
+        margin-left: 25px;
+        margin-top: 100px;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 1500;
+        font-size: 40px;
+    
+    }
+    .connectWithMe .para1 {
+        margin-top: 40px;
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .connectWithMe .para2 {
+        margin-top: 5px;
+        display: flex;
+        flex-direction: column;
+    }
+    .connectWithMe .link1 img {
+        margin-left: 25px;
+        width: 40px;
+        height: 40px;
+    }
+    .connectWithMe .link4 img {
+        margin-left: 25px;
+        width: 40px;
+        height: 40px;
+    }
 }
