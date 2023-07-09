@@ -5,11 +5,11 @@
     font-family: 'Hind Siliguri', sans-serif;
     font-family: 'Raleway', sans-serif;
     font-weight: 800;
-    margin-left: 230px;
+    margin-left: 200px;
 }
 
 .infoContainer p {
-    margin-right: 100px;
+    margin-right: 10px;
 }
 
 .ih11 {
@@ -110,4 +110,13 @@
 
 .progress-bar.w-62 {
     width: 62%;
+}
+
+@media screen and (max-width: 900px){
+    .infoContainer {
+        font-family: 'Hind Siliguri', sans-serif;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 800;
+        margin-left: 100px;
+    }
 }
