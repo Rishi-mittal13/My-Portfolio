@@ -34,9 +34,11 @@
 
 }
 
-/* .icon .cross{
-    margin-left: 155px ;
-} */
+.icon .cross{
+    margin-top: 4px;
+    width: 19px;
+    margin-left: 136px;
+}
 .sidebarGo {
     transform: translate(-500px, 0px);
     position: absolute;
