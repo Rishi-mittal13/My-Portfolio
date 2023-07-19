@@ -1,22 +1,25 @@
 .contactInfo {
     padding-top: 150px;
-    margin-left: 20px;
+    margin-left: 20px; 
     text-align: center;
     font-family: 'Raleway', sans-serif;
 }
 
 .contactInfo h1 {
     font-weight: bold;
+    margin-bottom: 10px;
 }
 
 .mb-3 {
-    margin-top: 20px;
-    padding: 5px;
+    text-align: center;
+    padding: 6px;
     font-weight: 900;
+    font-size: 20px;
+    margin: 12px auto;
 }
 
 .form-text {
-    font-size: small;
+    font-size: 12px;
     font-weight: 500;
 }
 
@@ -37,10 +40,16 @@
 }
 
 .cpRights {
+    width: 100vw;
     text-align: center;
     margin-top: 95px;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
-
-
+}
+.frm{
+    /* border: 2px solid black; */
+    max-width:60vh;
+    height: 40vh;
+    margin: auto;
+    padding: 20px;
 }
