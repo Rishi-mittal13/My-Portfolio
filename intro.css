@@ -41,6 +41,7 @@
     justify-content: flex-start;
     font-weight: 600;
     font-size: 14px;
+    animation: text 1.1s ease-in;
 }
 
 .skill .item-text span:last-child {
@@ -85,30 +86,30 @@
     height: 100%;
     border-top-right-radius: 2px;
     border-bottom-right-radius: 2px;
+    width: 0%;
 }
 
-.progress-bar.w-80 {
-    width: 80%;
+.w-80 {
+    animation: java 1.2s ease-in-out forwards;
+}
+.w-60 {
+    animation: pyth 1.2s ease-in-out forwards;
 }
 
-.progress-bar.w-60 {
-    width: 60%;
+.w-85 {
+    animation: html 1.2s ease-in-out forwards;
 }
 
-.progress-bar.w-85 {
-    width: 85%;
+.w-50 {
+    animation: css 1.2s ease-in-out forwards;
 }
 
-.progress-bar.w-50 {
-    width: 50%;
+.w-60 {
+    animation: js 1.2s ease-in-out forwards;
 }
 
-.progress-bar.w-60 {
-    width: 60%;
-}
-
-.progress-bar.w-62 {
-    width: 62%;
+.w-62 {
+    animation: sql 1.2s ease-in-out forwards;
 }
 
 @media screen and (max-width: 900px){
@@ -118,4 +119,46 @@
         font-weight: 800;
         margin-left: 100px;
     }
+}
+
+@keyframes java{
+    100%{
+        width: 80%;
+    }
+    
+}
+@keyframes pyth{
+    100%{
+        width: 60%;
+    }
+    
+}
+@keyframes html{
+    100%{
+        width: 85%;
+    }
+    
+}
+@keyframes css{
+    100%{
+        width: 50%;
+    }
+    
+}
+@keyframes js{
+    100%{
+        width: 60%;
+    }
+    
+}
+@keyframes sql{
+    100%{
+        width: 62%;
+    }
+    
+}
+@keyframes text {
+    from{
+        color: white;
+    } 
 }
