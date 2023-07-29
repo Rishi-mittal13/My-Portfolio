@@ -14,6 +14,10 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+body {
+    background-color: #a9d6e5;
+    color: black;
+}
 
 .sidebar {
     position: absolute;
